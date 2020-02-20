@@ -17,16 +17,16 @@ module.exports = class extends Command {
             requiredPermissions: [],
             requiredSettings: [],
             subcommands: false,
-            description: '',
+            description: "I'll Say it for you! | Usage: !say <MSG>",
             quotedStringSupport: false,
-            usage: '<thing:string> [...]',
+            usage: '<Message:string> [...]',
             usageDelim: ` `,
-            extendedHelp: 'say.'
+            extendedHelp: 'I Can Repeat what you say! Just let me wait 1 Minute before you do another one. (we want to prevent spam)'
         });
     }
 
-    async run(message, [...thing]) {
-       message.send(thing);
+    async run(message, [...Message]) {
+       message.send(Message);
     }
 
 };
