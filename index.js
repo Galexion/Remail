@@ -6,4 +6,4 @@ new Client({
     commandEditing: true,
     typing: true,
     readyMessage: (client) => `Successfully initialized. Ready to serve ${client.guilds.size} guilds.`
-}).login('Njc5ODYxNDY5MDkyNzczOTQw.Xk3gZA.NVCPwo8NUs3_N9tuzazGAV86Yyk');
+}).login('Njc5ODYxNDY5MDkyNzczOTQw.Xk3q9A.DRbPR9T3SBwGn1ojH5O3CiimSnM');
