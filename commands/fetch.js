@@ -26,7 +26,7 @@ module.exports = class extends Command {
     }
 
     async run() {
-       message.send("Fetching Latest Data! You should See it in your desinated News Channel");
+       message.send("Fetching Latest Data! You should See it in your desinated News Channel.");
     }
 
 };
